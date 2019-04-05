@@ -21,7 +21,7 @@ Process
   II.	Install Zun (the container service for launching and managing application 
 	    containers without any VM managements)
 	   
-     1. First we must install and configure the controller node 
+	1. First we must install and configure the controller node 
 		   
 			    a. Start by creating the Zun database, service credentials, and
 			       the API endpoints
@@ -32,8 +32,8 @@ Process
 		   
 			    c. Finalize installation by creating an upstart config and enabling/starting the
 			       zun-api and zun-wsproxy services
-		
-	   2. Install and configure a compute node
+		 
+	2. Install and configure a compute node
 		
 			    a. Install Docker and Kuryr-libnetwork in the compute node and install
 			       Etcd on the controller node
@@ -51,14 +51,14 @@ Process
   III. Launch a container
 	
      1. Source the demo credentials
-		
-		 2. Determine available networks
-		
-		 3. Set NET_ID environment variable to reflect ID of a networks
-		
-		 4. Run a CirrOS container on the selfservice network
-		
-		 5. Access the container and verify the access to the internet
+     
+     2. Determine available networks
+     
+     3. Set NET_ID environment variable to reflect ID of a networks
+     
+     4. Run a CirrOS container on the selfservice network
+     
+     5. Access the container and verify the access to the internet
      
   IV. Package
   
