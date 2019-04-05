@@ -64,4 +64,4 @@ Process
   
      1. Put all the commands into appropriate folders in repository or into master script so user
         can use container functionality with Zun through OpenStack directly after instantiation
-	with no user input necessary
+	    with no user input necessary
